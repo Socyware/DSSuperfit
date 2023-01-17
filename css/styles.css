@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Satisfy&display=swap");
+
+:root {
+  --c-red: #f03c42;
+  --c-blue: #222374;
+  --c-gray: #cccccc;
+  --c-white: #ffffff;
+  --c-black: #000000;
+}
+
+* {
+  font-family: "Open-Sans", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container {
+  background-color: var(--c-red);
+  height: 100px;
+  width: 100%;
+  padding: 25px;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 auto;
+}
+
+.nav-model h6 {
+  color: var(--c-white);
+  font-size: 18px;
+}
+
+.nav-logo h6 {
+  font-size: 14px;
+  color: var(--c-white);
+  padding-left: 5px;
+}
+
+.nav-main {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.container-one {
+  background-color: var(--c-blue);
+  display: flex;
+  padding: auto;
+  height: 50vh;
+  width: 100%;
+  padding: 25px;
+  
+}
+
+.container-main-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
+
+.container-main-one h6 {
+  color: var(--c-white);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.container-imput {
+  background-color: var(--c-gray);
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+.container-imput h6 {
+  color: var(--c-black);
+  font-size: 20px;
+}
+
+.container-imput p {
+  color: var(--c-black);
+  font-size: 14px;
+}
+
+
+.container-two{
+  background-color: var(--c-white);
+  display: flex;
+  padding: auto;
+  width: 100%;
+  padding: 25px;
+  height: 880px;
+}
+
+.container-main-two {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  
+}
+
+.container-main-two h6 {
+  color: var(--c-red);
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.container-imput-two {
+  background-color: var(--c-blue);
+  border-radius: 10px;
+  padding: 25px;
+  
+}
+
+.container-imput-two h6 {
+  color: var(--c-white);
+  font-size: 20px;
+}
+
+.container-imput-two p {
+  color: var(--c-white);
+  font-size: 14px;
+}
+
+.footer{
+  background-color: var(--c-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+
+}
+
+.footer p{
+  color: var(--c-white);
+  display: flex;
+  text-align: center;
+}
+
+.footer-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
